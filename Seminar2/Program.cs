@@ -39,19 +39,39 @@
 
 //Определить кратное ли второе  число относительно первого
 
-Console.WriteLine( "Введите число 1" );
-int number1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine( "Введите число 1" );
+// int number1 = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine( "Введите число 2" );
-int number2= Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine( "Введите число 2" );
+// int number2= Convert.ToInt32(Console.ReadLine());
 
-int result = number1 % number2;// int result при остатке от деления, если остатка нет, то число целое
+// int result = number1 % number2;// int result при остатке от деления, если остатка нет, то число целое
 
-if(result == 0)// ели result приравнивается к нуля, т.е. остатка нет, значит вывд такой
-{
-    Console.WriteLine("Второе число кратное первому");
-}
-else
-{
-    Console.WriteLine("Второе число некратное первому");
-}
+// if(result == 0)// ели result приравнивается к нуля, т.е. остатка нет, значит вывд такой
+// {
+//     Console.WriteLine("Второе число кратное первому");
+// }
+// else
+// {
+//     Console.WriteLine("Второе число не кратное первому");
+// }
+
+//______________________________________________________________________________________________________________________
+
+// //Напишите программу, котрая принимает на вход число и проверяет кратно ли оно одновременно 7 и 23
+
+// //int number = new Random().Next(100, 1000);
+// Console.WriteLine( "Введите число " );
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// int result = number % 7;
+// int result1 = number % 23;
+
+// if(result == 0 && result1 == 0)// "&&" это знак амперсант обозначает "и" , а этот знак "||" означает "или"
+// {
+//     Console.WriteLine(number+ " одновременно кратное 7 и 23");
+// } 
+// else
+// {
+//     Console.WriteLine(number+ " не кратное одновременно 7 и 23");
+// }
