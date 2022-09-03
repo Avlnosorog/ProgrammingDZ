@@ -75,3 +75,26 @@
 // {
 //     Console.WriteLine(number+ " не кратное одновременно 7 и 23");
 // }
+
+//______________________________________________________________________________________________________________________
+
+//Определить является ли первое число квадратом второго и наоборот, втолрое квадратом первого
+
+Console.WriteLine( "Введите первое число " );
+int number = Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine( "Введите второе число " );
+int number1 = Convert.ToInt32(Console.ReadLine());
+
+if(number == number1 * number1)// обязательно двойное равенство "=="
+{
+    Console.WriteLine(number+ " является квадратом " +number1);
+}
+if(number1 == number * number)
+{
+    Console.WriteLine(number1+ " является квадратом " +number);
+}
+if(number != number1 * number1 && number1 != number * number)
+{
+    Console.WriteLine(number+  " и " +number1+ "  не являются квадратами  по отношению друг к другу ");
+}
