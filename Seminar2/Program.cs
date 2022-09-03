@@ -94,7 +94,7 @@ if(number1 == number * number)
 {
     Console.WriteLine(number1+ " является квадратом " +number);
 }
-if(number != number1 * number1 && number1 != number * number)
+if(number != number1 * number1 && number1 != number * number)// При знаке "||" условия не выполняются
 {
     Console.WriteLine(number+  " и " +number1+ "  не являются квадратами  по отношению друг к другу ");
 }
