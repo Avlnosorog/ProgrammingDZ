@@ -98,3 +98,28 @@
 // {
 //     Console.WriteLine(Math.Pow(count,2));
 // }
+//___________________________________________________________________________________________________________________
+//Задача 19.1
+//
+//Напишите программу, которая принимает на вход пятизначное число и проверяет, является ли оно палиндромом.
+//
+// Console.WriteLine( "Введите пятизначное число " );
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// string result = Convert.ToString(number);
+
+// if(number>=10000 && number<100000)
+// {
+//     if(result[0]==result[4] && result[1]==result[3])
+//     {
+//         Console.WriteLine("Число " +number+ " является палиндромом ");
+//     }
+//     else
+//     {
+//         Console.WriteLine("Число " +number+ " не является палиндромом ");
+//     }
+// }
+// else
+// {
+//     Console.WriteLine("Это не пятизначное число");
+// }
