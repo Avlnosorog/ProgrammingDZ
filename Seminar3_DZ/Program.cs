@@ -50,7 +50,7 @@
 
 
 
-// //Distance (d) = 
+
 // // Math.Pow(a,2) этот оператор возводит число "a" в квадрат
 // // Math.Pow(a,3) этот оператор возводит число "a" в куб и т.д.
 // // Math.Sqrt(16)  этот оператор извлекает корень, например из 16
@@ -76,4 +76,16 @@
 // {
 //     Console.WriteLine(Math.Pow(count,3));
 //     count++;
+// }
+//__________________________________________________________________________________________________________________
+//
+// Посмотрим как работает цикл for
+//
+// Console.WriteLine( "Введите число N" );
+// int number = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine();
+//
+// for(int count=0; count<=number; count++)
+// {
+//     Console.WriteLine(Math.Pow(count,2));
 // }
