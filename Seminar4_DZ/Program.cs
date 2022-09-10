@@ -115,3 +115,26 @@
 // FillArray(array);
 // PrintArray(array);
 //_____________________________________________________________________________________________________________________
+// Преобразование строки в массив.
+//
+// Console.Write( "Введите число " );
+// string str = Console.ReadLine();
+// Console.WriteLine();
+// // string str = "128364758";
+// char [] ar = new char [str.Length];
+// for(int i = 0; i < str.Length; i++)
+// {
+// ar[i] = str[i];
+// }
+// int length = str.Length;
+
+//     int position = 0;
+//     while(position<length)
+//     {
+//         Console.Write(str[position] +" ");
+//         position++;
+//     }
+// Console.WriteLine();
+// Console.WriteLine(str[0]);
+// Console.WriteLine(str.Length);
+//______________________________________________________________________________________________________________
