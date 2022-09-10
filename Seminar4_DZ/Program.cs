@@ -88,3 +88,30 @@
 // return summa;
 // }
 //____________________________________________________________________________________________________________________
+//Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+// int[] array = new int[8];
+//
+// void FillArray(int[] collection)
+// {
+//     int length = collection.Length;
+//     int index = 0;
+//     while(index < length)
+//     {
+//         collection[index] = new Random().Next(0, 50);
+//         index++;
+//     }
+// }
+// void PrintArray(int[] collection)
+// {
+//     int length = collection.Length;
+//     int position = 0;
+//     while(position<length)
+//     {
+//         Console.Write(collection[position] +" ");
+//         position++;
+//     }
+
+// }
+// FillArray(array);
+// PrintArray(array);
+//_____________________________________________________________________________________________________________________
