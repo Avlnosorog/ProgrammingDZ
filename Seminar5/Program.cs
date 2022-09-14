@@ -134,6 +134,7 @@
 // //_______________________________________________________________________________________________________________
 //
 // Задайте массив и напишите программу, которая определяет, присутствует ли заданное число в массиве.
+//
 //  Console.WriteLine( "Введите число " );
 //  int number = Convert.ToInt32(Console.ReadLine());
  
@@ -155,3 +156,49 @@
 
  
 // Console.WriteLine(result);
+//
+//__________________________________________________________________________________________________________________
+// Задайте массив и напишите программу, которая определяет, присутствует ли заданное число в массиве.
+//
+// Console.WriteLine( "Введите число " );
+// int number = Convert.ToInt32(Console.ReadLine());
+
+// int size = 15;
+// //int min = 1;
+// //int max = 10;
+// string Result = "отсутствует";
+
+// int[] CreateArray(int size)
+// {
+//     int[] arr = new int[size];
+//     for (int i = 0; i < size; i++)
+//     {
+//         arr[i] = new Random().Next(0, 30);
+//     }
+//     return arr;
+// }
+
+// bool FindNumber(int[] array, int number)
+// {
+//     for (int i = 0; i < array.Length; i++)
+//     {
+//         if (array[i] == number) return true;
+//     }
+//     return false;
+// }
+
+// void PrinArray(int[] arr)
+// {
+//     System.Console.WriteLine();
+//     for (int i = 0; i < arr.Length; i++)
+//     {
+//         System.Console.Write($"{arr[i]} ");
+//     }
+//     System.Console.WriteLine();
+// }
+
+// int[] array = CreateArray(size);
+// PrinArray(array);
+// if (FindNumber(array, number)) Result = "присутствует";
+// System.Console.WriteLine($"Число {number} {Result} в массиве");
+// System.Console.WriteLine();
