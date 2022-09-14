@@ -164,8 +164,6 @@
 // int number = Convert.ToInt32(Console.ReadLine());
 
 // int size = 15;
-// //int min = 1;
-// //int max = 10;
 // string Result = "отсутствует";
 
 // int[] CreateArray(int size)
@@ -202,3 +200,4 @@
 // if (FindNumber(array, number)) Result = "присутствует";
 // System.Console.WriteLine($"Число {number} {Result} в массиве");
 // System.Console.WriteLine();
+//__________________________________________________________________________________________________________________
