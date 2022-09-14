@@ -2,10 +2,10 @@
 // количество чётных чисел в массиве.
 //
 // 345, 897, 568, 234] -> 2
-// int[] array = new int[4];     // создадим массив типа "int" с именем "array."
-// int size = array.Length;       // создадим переменную "size", которая будет равняться длине нашего массива, чтобы
-// int count = 0;                                // каждый раз не писать array.Length;
-// for(int i = 0; i< size; i++)
+//int[] array = newint[4];     // создадим массив типа "intint" с именем "array."
+//int size = array.Length;       // создадим переменную "size", которая будет равняться длине нашего массива, чтобы
+//int count = 0;                                // каждый раз не писать array.Length;
+// for(intint i = 0; i< size; i++)
 // {
 //     array[i] = new Random().Next(1, 10);
 // {
@@ -18,21 +18,21 @@
 //_____________________________________________________________________________________________________________________
 // // Задайте массив заполненный случайными положительными трёхзначными числами. Напишите программу, которая покажет
 // // количество чётных чисел в массиве.
-// int[] array = new int[4];
-// int count = 0;
-//  void FillArray(int[] collection)
+//int[] array = newint[4];
+//int count = 0;
+//  void FillArray(intint[] collection)
 //  {
-//      int length = collection.Length;
-//      int index = 0;
+//     int length = collection.Length;
+//     int index = 0;
 //      while(index < length)
 //      {
 //          collection[index] = new Random().Next(100, 1000);
 //         index++;
 //     }
 //  }
-// void Number(int[] array, int count)
+// void Number(intint[] array,int count)
 // {
-//     for (int i = 0; i < array.Length; i++)
+//     for (intint i = 0; i < array.Length; i++)
 //     {
 //         if (array[i]%2==0)
 //         {
@@ -41,10 +41,10 @@
 //     }
 //    Console.WriteLine($"{count} количество чётных чисел в массиве");
 // }
-// void PrintArray(int[] collection)
+// void PrintArray(intint[] collection)
 //  {
-//      int length = collection.Length;
-//     int position = 0;
+//     int length = collection.Length;
+//    int position = 0;
 //      while(position<length)
 //      {
 //         Console.Write(collection[position] +" ");
@@ -60,20 +60,20 @@
 // // количество чётных чисел в массиве.
 
 // // 345, 897, 568, 234] -> 2
-// int size = 4;
-// int count = 0;
-// int[] MainArray(int size)
+//int size = 4;
+//int count = 0;
+//int[] MainArray(intint size)
 // {
-//     int[] arr = new int[size];
-//     for (int i = 0; i < size; i++)
+//    int[] arr = newint[size];
+//     for (intint i = 0; i < size; i++)
 //     {
 //         arr[i] = new Random().Next(100, 1000);
 //     }
 //     return arr;
 // }
-// int Number(int[] array, int count)
+//int Number(intint[] array,int count)
 // {
-//     for (int i = 0; i < array.Length; i++)
+//     for (intint i = 0; i < array.Length; i++)
 //     {
 //         if (array[i]%2==0)
 //         {
@@ -83,34 +83,34 @@
 //     return count;
     
 // }
-// void PrintMainArray(int[] arr)
+// void PrintMainArray(intint[] arr)
 // {
 //     Console.WriteLine();
-//     for (int i = 0; i < arr.Length; i++)
+//     for (intint i = 0; i < arr.Length; i++)
 //     {
 //         Console.Write($"{arr[i]} ");
 //     }
 //     Console.WriteLine();
 // }
-// int[] array = MainArray(size);
+//int[] array = MainArray(size);
 
 // PrintMainArray(array);
 // Console.WriteLine(Number(array,count)+ " Количество чётных чисел в массиве");
 // Console.WriteLine();
 //_________________________________________________________________________________________________________________
-// Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечётных позициях.
-//
-//[3, 7, 23, 12] -> 19
-//
-//[-4, -6, 89, 6] -> 0
+//// Задайте одномерный массив, заполненный случайными числами. Найдите сумму элементов, стоящих на нечётных позициях.
 
-// int[] array = new int[5];     // создадим массив типа "int" с именем "array."
-// int size = array.Length;       // создадим переменную "size", которая будет равняться длине нашего массива, чтобы
+// [3, 7, 23, 12] -> 19
+
+// [-4, -6, 89, 6] -> 0
+
+// int int[] array = new int[5];     // создадим массив типа "intint" с именем "array."
+// intint size = array.Length;       // создадим переменную "size", которая будет равняться длине нашего массива, чтобы
 //                                // каждый раз не писать array.Length;
        
 // int Sum = 0;
 
-// for(int i = 0; i< size; i++)
+// for(intint i = 0; i< size; i++)
 // {
 //     array[i] = new Random().Next(0, 10);
 
@@ -129,26 +129,26 @@
 //                                              // в скобках указываем сам наш массив, кторый будет выводиться, это "array"
 //                                              // и второй аргумент это знак, который будет разделять наш массив, у нас это
 //                                              // знак разделения ", " запятая.
-//________________________________________________________________________________________________________________
-//Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
-//
-//[3 7 22 2 78] -> 76
-// int[] array = new int[5];
+________________________________________________________________________________________________________________
+// Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
+
+// [3 7 22 2 78] -> 76
+// intint[] array = new int[5];
 
 //  void FillArray(int[] collection)
 //  {
-//      int length = collection.Length;
-//      int index = 0;
+//     int length = collection.Length;
+//     int index = 0;
 //      while(index < length)
 //      {
 //          collection[index] = new Random().Next(0, 50);
 //         index++;
 //     }
 //  }
-//  void PrintArray(int[] collection)
+//  void PrintArray(intint[] collection)
 //  {
-//      int length = collection.Length;
-//     int position = 0;
+//     int length = collection.Length;
+//    int position = 0;
 //      while(position<length)
 //      {
 //         Console.Write(collection[position] +" ");
@@ -156,12 +156,12 @@
 //     }
 
 //  }
-//  void NumberArray(int[] array)
+//  void NumberArray(intint[] array)
 //  {
-//  int numbermax = array[0];
-//  int numbermin = array[0];
+// int numbermax = array[0];
+// int numbermin = array[0];
 
-//     for (int i = 0; i < array.Length; i++)
+//     for (intint i = 0; i < array.Length; i++)
 //     {
 //         if (numbermax<array[i])
 //         {
@@ -184,6 +184,6 @@
 // PrintArray(array);
 // Console.WriteLine();
 // NumberArray(array);
-//____________________________________________________________________________________________________________
+// //____________________________________________________________________________________________________________
 
 
