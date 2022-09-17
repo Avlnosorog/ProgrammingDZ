@@ -104,7 +104,7 @@
 // Console.WriteLine( "Введите число " );
 // int number = Convert.ToInt32(Console.ReadLine());
 // Console.WriteLine($"{number} => {GetP(number)}" );
-
+//
 //  int GetP(int number)
 //  {
 //     int count = 0;
