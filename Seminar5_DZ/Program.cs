@@ -18,9 +18,9 @@
 //_____________________________________________________________________________________________________________________
 // // Задайте массив заполненный случайными положительными трёхзначными числами. Напишите программу, которая покажет
 // // количество чётных чисел в массиве.
-//int[] array = newint[4];
+//int[] array = new int[4];
 //int count = 0;
-//  void FillArray(intint[] collection)
+//  void FillArray(int[] collection)
 //  {
 //     int length = collection.Length;
 //     int index = 0;
@@ -30,9 +30,9 @@
 //         index++;
 //     }
 //  }
-// void Number(intint[] array,int count)
+// void Number(int[] array,int count)
 // {
-//     for (intint i = 0; i < array.Length; i++)
+//     for (int i = 0; i < array.Length; i++)
 //     {
 //         if (array[i]%2==0)
 //         {
@@ -41,7 +41,7 @@
 //     }
 //    Console.WriteLine($"{count} количество чётных чисел в массиве");
 // }
-// void PrintArray(intint[] collection)
+// void PrintArray(int[] collection)
 //  {
 //     int length = collection.Length;
 //    int position = 0;
